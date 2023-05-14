@@ -45,6 +45,20 @@ In the following figure, the red pen highlights the directory of activity_main.x
   ![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/3284431a-f087-47d6-97ba-e31c0da7c61e)
 
     
-### NOTE that 
+## NOTE
+   
+It is critical to pay lots of attention to these notes.
     
+You always have to check lots of things once, before building the project. 
+    
+I just list things about this article.
+    
+ 1. Check the xml file for layout 
+    
+                    
+     he .xml is 
+    
+![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/27706910-9eb3-4804-a7d7-bac23b245fb9)
+    
+
     
