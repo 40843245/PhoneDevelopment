@@ -58,6 +58,54 @@ Again, I want to remind you that you must pay lots of attention. Otherwise, you 
     
 1. There can be at least 1 TextView in a root layout. Otherwise, the bug occurs when running. (NO compiler error but it will cause the application on Android device can NOT be executed.)
 
+To have different settings of text (including color of text or size of text), you can use Spannable interface.
+
+## Example (wrong example)
+
+It is NOT allowed to have two TextView instance. Consider the following example.
+
+In the following example, it will cause a bug and thus the application on Android device can NOT be executed.
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        LinearLayout my_root = (LinearLayout) findViewById(R.id.linearLayout);
+
+        LinearLayout layout = new LinearLayout(this);
+        layout.setOrientation(LinearLayout.VERTICAL);
+
+        LinearLayout.LayoutParams params =
+                new LinearLayout.LayoutParams(
+                        980
+                        ,1200
+                        ,120
+                );
+
+        //TextView textView1= (TextView) findViewById(R.id.text_view_id_1);
+        TextView textView1 = new TextView(this);
+        textView1.setTextColor(ContextCompat.getColor(this, R.color.orange));
+        textView1.setText("ANDROID APP");
+        //textView1.setHeight(4);
+        layout.addView(textView1);
+        my_root.addView(layout);
+
+
+        //TextView textView2= (TextView) findViewById(R.id.text_view_id_2);
+        //TextView textView2 = new TextView(this);
+
+        TextView textView2=textView1;
+        textView2.setTextColor(ContextCompat.getColor(this, R.color.lightGreen));
+        textView2.setText("Second TextView instance");
+        //layout.addView(textView2);
+        //my_root.addView(layout);
+
+        }
+    
+
+
+
 More details on the replies on StackOverflow.
 
 ![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/125aed3c-21bd-4877-ae6c-f09d555f040d)
