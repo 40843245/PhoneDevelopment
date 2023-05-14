@@ -20,7 +20,7 @@ https://developer.android.com/studio/
 
 My tutorial
 
-https://youtu.be/ZiRXPQsg6a8
+[https://youtu.be/ZiRXPQsg6a8](https://youtu.be/ZiRXPQsg6a8)
 
 After creating the new project.
 
@@ -64,10 +64,5 @@ NOTE that
 The option of device for running should be on top right of the menu bar, which is highlighted with red pen in the following figure.
 
 ![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/b7fc6c08-4c52-43f3-bc55-3d3101180df1)
-
-
-##
-
-
 
 
