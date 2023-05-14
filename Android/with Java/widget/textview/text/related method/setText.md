@@ -135,7 +135,7 @@ We skip the second method setTextColor(int[][] state, int[] color).
 ## Ref
 For more details of the method setTextColor, see the Android Official Docs.
     
-    https://developer.android.com/reference/android/widget/TextView#setTextColor(android.content.res.ColorStateList)
+https://developer.android.com/reference/android/widget/TextView#setTextColor(android.content.res.ColorStateList)
     
 For the way to change the text of color, see the replies on StackOverflow, especially about the reply.
     
