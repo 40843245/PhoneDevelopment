@@ -12,10 +12,7 @@ To do the first part (access the TextView in LinearLayout tag in the file activi
     ,or
     
     2. XML + Java ( Create a xml tag + change it in Java)
-    
-
-
-
+ 
 ### way 1
 
 Create a xml tag in activity_main.xml which defaults to be located in 
