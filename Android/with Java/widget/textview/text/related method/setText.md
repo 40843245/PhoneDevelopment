@@ -53,10 +53,10 @@ You always have to check lots of things once, before building the project.
     
 I just list things about this article.
     
- 1. Check the xml file for layout 
+    <h5> 1. Check the xml file for layout. </h5>
     
-                    
-     he .xml is 
+   The .xml is 
+    
     
 ![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/27706910-9eb3-4804-a7d7-bac23b245fb9)
     
