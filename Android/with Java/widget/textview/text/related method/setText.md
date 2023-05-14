@@ -43,3 +43,8 @@ In the following figure, the red pen highlights the directory of activity_main.x
   In the following figure, the red pen highlights the directory of MainActivity.java
   
   ![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/3284431a-f087-47d6-97ba-e31c0da7c61e)
+
+    
+### NOTE that 
+    
+    
