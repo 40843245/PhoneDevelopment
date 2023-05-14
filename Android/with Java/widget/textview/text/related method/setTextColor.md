@@ -1,4 +1,4 @@
-# setText -- Set the text 
+# setColor -- Set color of text
 ## Step
 To set the text, you have to access the TextView in LinearLayout tag in the file activity_main.xml.
 
