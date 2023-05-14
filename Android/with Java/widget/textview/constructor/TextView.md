@@ -20,7 +20,7 @@ That is to say, to display a text or texts, the TextView class must be used.
 
 Instantiate it with new keyword. Then append it into a Layout instance. Finally, append the view into the root layout.
 
-## Exampple
+## Example
 
 See the following example.
 
@@ -60,11 +60,15 @@ Again, I want to remind you that you must pay lots of attention. Otherwise, you 
 
 To have different settings of text (including color of text or size of text), you can use Spannable interface.
 
-## Example (wrong example)
+## Example (example with bugs)
 
 It is NOT allowed to have two TextView instance. Consider the following example.
 
 In the following example, it will cause a bug and thus the application on Android device can NOT be executed.
+
+In the example of next section, you will know how to achieve the goal 
+
+(style different texts in a root layout).
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -103,7 +107,42 @@ In the following example, it will cause a bug and thus the application on Androi
 
         }
     
+## Example (example without bugs)
 
+     @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
+
+        LinearLayout my_root = (LinearLayout) findViewById(R.id.linearLayout);
+
+        LinearLayout layout = new LinearLayout(this);
+        layout.setOrientation(LinearLayout.VERTICAL);
+
+        LinearLayout.LayoutParams params =
+                new LinearLayout.LayoutParams(
+                        980
+                        ,1200
+                        ,120
+                );
+        
+        TextView textView1 = new TextView(this);
+        Spannable word1=new SpannableString(getResources().getString(R.string.word1));
+        Spannable word2=new SpannableString(getResources().getString(R.string.word2));
+        word1.setSpan(new ForegroundColorSpan(ContextCompat.getColor(this,R.color.lightGreen)),0,word1.length(),Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+        word2.setSpan(new ForegroundColorSpan(ContextCompat.getColor(this,R.color.orange)),0,word2.length(),Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+
+        textView1.setText(word1);
+
+        textView1.append("\n");
+
+        textView1.append(word2);
+
+        layout.addView(textView1);
+        my_root.addView(layout);
+    }
 
 
 More details on the replies on StackOverflow.
