@@ -142,7 +142,7 @@ For the way to change the text of color, see the replies on StackOverflow, espec
 ![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/38e56500-839b-47a7-a80e-ce3358c43357)
 
     
-    https://stackoverflow.com/questions/5271387/how-can-i-get-color-int-from-color-resource
+ https://stackoverflow.com/questions/5271387/how-can-i-get-color-int-from-color-resource
     
     
 
