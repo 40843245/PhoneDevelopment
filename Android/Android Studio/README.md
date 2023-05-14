@@ -29,7 +29,10 @@ You should see structure of the project as shown in the left panel of the follow
 ![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/12ad831c-4bf8-467c-9544-989f58c82592)
 
 ## Select your device for running
-Then you have to select your device for running. To do this, you just have to select the device for running in Android Studio.
+Then you have to select your device for running. To do this, you just have to select the device for running in Android Studio then click the run icon (run icon refers an icon of green triangle which points to right), which is marked with yellow pen in the following figure.
+
+![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/565ac0da-9e8f-45c8-bd86-ba9f6834f683)
+
 
 Case 1: 
 
