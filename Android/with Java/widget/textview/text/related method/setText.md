@@ -53,12 +53,34 @@ You always have to check lots of things once, before building the project.
     
 I just list things about this article.
     
-    <h5> 1. Check the xml file for layout. </h5>
+1. Check the xml file for layout.
     
-   The .xml is 
+   The file for layout should be a xml file (file extension with .xml).
     
+    Additionally, it should be placed in the directory.
     
-![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/27706910-9eb3-4804-a7d7-bac23b245fb9)
+    .../res/layout
+    
+    Finally, the file name should match R.layout.<filename> in the statement in MainActivity.java .
+    
+    The following figures illustrate the example.
+    
+![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/ec0c1347-ef27-47e2-b40e-4c5ed8a5984e)
+    
+![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/f7ef4ec1-b11f-478c-9552-36a3413a19eb)
+
+    
+ 2. Check the id of LinearLayout tag in activity_main.xml .
+
+    The id of LinearLayout tag in activity_main.xml should match the R.id.<idName> in MainActivity.java .
+    
+    Again, the following figures illustrate the example.
+    
+    ![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/92f25ca6-3286-4072-9604-770233103698)
+    
+    ![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/9f5987cf-4fdb-4a0a-a31e-642b6fa54638)
+
+
     
 
     
