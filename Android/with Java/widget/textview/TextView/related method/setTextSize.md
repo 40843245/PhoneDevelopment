@@ -11,6 +11,11 @@
     
 ### return value
     void
+## NOTICE
+Notice that
+        
+        If this TextView has the auto-size feature enabled, then this function takes no effects.
+
 
 ## Example
 Result:
