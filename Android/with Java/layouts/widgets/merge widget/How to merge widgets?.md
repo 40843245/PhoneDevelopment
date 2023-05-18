@@ -13,7 +13,7 @@ To do this with Java code,
 
 first, one needs to create widgets then adding them into different layouts.
 
-Finally, merge these layouts into a layout as the root layout.
+Finally, merge these layouts into a layout as the root layout. (For example, see Example 1.)
 
 The tree structure of the widgets and layout and major step is shown as following figure.
 
@@ -24,10 +24,10 @@ NOTICE that
 
 1. It is <b>impossible</b> to merge lots of widgets in 1 layout.
 
-If one try to do so with setView method , then the latest widget will override the previous widgets.
+If one try to do so with setView method , then the latest widget will override the previous widgets. (See Example 2.)
 
 ## Example
-### Example 1 
+### Example 1 (Example with Epected results)
 #### Java code and XML file 
 Shown in the project which is in zip file.
 
@@ -37,6 +37,8 @@ The XML file file is mainly defined .../res/layout/activity_main.xml .
 
 The zip file in GitHub is available at:
 
+https://github.com/40843245/PhoneDevelopment/blob/main/Android/with%20Java/layouts/widgets/merge%20widget/zip/project/FrameLayout_Project_1_v1.zip
+
 #### UI 
 Shown in Figure 1 above.
 ### Example 2 (Example with Unexpected results)
@@ -44,6 +46,8 @@ Shown in Figure 1 above.
 Shown in the project which is in zip file.
 
 The zip file in GitHub is available at:
+
+https://github.com/40843245/PhoneDevelopment/blob/main/Android/with%20Java/layouts/widgets/merge%20widget/zip/project/FrameLayout_Project_1_v2.zip
 
 #### UI
 ![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/0399e8e7-623c-4767-8c47-30f8245f5f1d)
