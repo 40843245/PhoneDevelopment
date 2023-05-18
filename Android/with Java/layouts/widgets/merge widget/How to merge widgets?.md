@@ -36,6 +36,9 @@ The Java code file is mainly defined .../MainActivity.java .
 The XML file file is mainly defined .../res/layout/activity_main.xml .
 
 The zip file in GitHub is available at:
+
+#### UI 
+Shown in Figure 1 above.
 ### Example 2
 #### Java code and XML file
 Shown in the project which is in zip file.
