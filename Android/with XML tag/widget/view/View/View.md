@@ -3,8 +3,14 @@
 1. How to create a View with View tag in XML file in Android Studio?
 2. Effect of View tag in XML file in Android Studio.
 
-## create 
+## Create 
 To create a view in Android Project in XML file, simply use View tag.(Look at NOTE section and example 1. in Example section)
+
+## Effects
+Behaves a rectangular view.
+
+It must always be rectangular.
+
 
 ## NOTE 
 View tag is self-closing. i.e. it works with the following rule. (At least, I am sure that it can work)
