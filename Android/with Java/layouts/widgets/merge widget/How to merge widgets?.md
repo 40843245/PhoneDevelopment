@@ -63,6 +63,16 @@ https://github.com/40843245/PhoneDevelopment/blob/main/Android/with%20Java/layou
 
 #### UI
 
+![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/da8eb545-7b13-4ab3-9d5a-59b16c6d966b)
+
+## Observation
+With Example 1 and Example 3, we can find the fact that it is impossible to put them in 1 layout, 
+
+but it is possible to put them in many different layouts and seems to combine them (visually).
+
+And the fact that it is simple to swap the widgets (visually), just swap the layouts (for more fully understand, I recommend you to compare the files in the project in the zip file, in Example 1 and Example 3.)
+
+
 ## Ref
 None
 
