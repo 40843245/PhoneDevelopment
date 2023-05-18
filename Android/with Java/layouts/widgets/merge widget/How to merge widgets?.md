@@ -40,7 +40,9 @@ The zip file in GitHub is available at:
 https://github.com/40843245/PhoneDevelopment/blob/main/Android/with%20Java/layouts/widgets/merge%20widget/zip/project/FrameLayout_Project_1_v1.zip
 
 #### UI 
-Shown in Figure 1 above.
+
+![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/da8eb545-7b13-4ab3-9d5a-59b16c6d966b)
+
 ### Example 2 (Example with Unexpected results)
 #### Java code and XML file
 Shown in the project which is in zip file.
@@ -51,6 +53,15 @@ https://github.com/40843245/PhoneDevelopment/blob/main/Android/with%20Java/layou
 
 #### UI
 ![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/0399e8e7-623c-4767-8c47-30f8245f5f1d)
+
+### Example 3 (Example with Unexpected results)
+#### Java code and XML file
+Shown in the project which is in zip file.
+
+The zip file in GitHub is available at:
+https://github.com/40843245/PhoneDevelopment/blob/main/Android/with%20Java/layouts/widgets/merge%20widget/zip/project/FrameLayout_Project_1_v3.zip
+
+#### UI
 
 ## Ref
 None
