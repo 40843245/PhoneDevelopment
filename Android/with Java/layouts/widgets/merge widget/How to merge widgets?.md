@@ -39,11 +39,14 @@ The zip file in GitHub is available at:
 
 #### UI 
 Shown in Figure 1 above.
-### Example 2
+### Example 2 (Example with Unexpected results)
 #### Java code and XML file
 Shown in the project which is in zip file.
 
 The zip file in GitHub is available at:
+
+#### UI
+![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/0399e8e7-623c-4767-8c47-30f8245f5f1d)
 
 ## Ref
 None
