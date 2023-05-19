@@ -20,5 +20,12 @@ The text "textView1" is just below to the EditText "Elem1". Shown as the followi
 2. I also set the orientation of LinearLayout_root as vertical by setting the attribute android:orientation as follows.
 
         android:orientation="vertical"
+        
+Notice that if I did NOT set it, then it defaults to horizotonal. Thus, you will see the UI as shown in the UI section in Wrong Example 3 in the post which is available at
+
+https://github.com/40843245/PhoneDevelopment/blob/main/Android/with%20Java/layouts/widgets/merge%20widget/Wrong%20Example/Wrong%20Examples.md
+
+## Ref
+None
     
 
