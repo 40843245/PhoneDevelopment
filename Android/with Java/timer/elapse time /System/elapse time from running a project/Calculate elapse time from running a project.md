@@ -129,6 +129,18 @@ About event handler:
 
 https://stackoverflow.com/questions/2069763/difference-between-event-handlers-and-callbacks
 
+About Runnable interface, Android Official Docs:
+
+https://developer.android.com/reference/java/lang/Runnable
+
+About Handler class, Android Official Docs:
+
+https://developer.android.com/reference/android/os/Handler
+
+About System class, Android Official Docs:
+
+https://developer.android.com/reference/java/lang/System
+
 
 
 
