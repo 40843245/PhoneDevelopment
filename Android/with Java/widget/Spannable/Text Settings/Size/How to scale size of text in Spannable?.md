@@ -27,6 +27,14 @@ Look at the following statements.
 
 It is scale up the Spannable named spannable_temp by 2.
 
+For more fully understand, see and test the following example.
+
+## Example
+
+See the project as the zip file in the following link.
+
+https://github.com/40843245/PhoneDevelopment/blob/main/Android/with%20Java/widget/Span/RelativeSizeSpan/zip/project/RelativeSizeSpan_1.zip
+
 ## Ref
 Thanks to the reply on the StackOverflow. I knew the RelativeSizeSpan class from it.
 
