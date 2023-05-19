@@ -17,5 +17,8 @@ The text "textView1" is just below to the EditText "Elem1". Shown as the followi
 
 #### Explanation
 1. I nested a LinearLayout tag (id: LinearLayout_1)in an other LinearLayout tag(id: LinearLayout_root ) which is the root element of the UI.
-2. 
+2. I also set the orientation of LinearLayout_root as vertical by setting the attribute android:orientation as follows.
+
+        android:orientation="vertical"
+    
 
