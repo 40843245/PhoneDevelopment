@@ -25,7 +25,7 @@ However, the text "textView1" appears next to and below the EditText "Elem". (Sh
 #### Java Code 
 In the .../MainActivity.java of the zip file, available at:
 
-https://github.com/40843245/PhoneDevelopment/blob/main/Android/with%20Java/layouts/widgets/merge%20widget/Wrong%20Example/zip/project/Wrong_Example_1.zip
+https://github.com/40843245/PhoneDevelopment/blob/main/Android/with%20Java/layouts/widgets/merge%20widget/Wrong%20Example/zip/project/Wrong_Example_2.zip
 
 #### UI
 ![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/2188b7f6-3d21-4172-b855-0b18edfce8b8)
