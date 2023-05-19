@@ -15,7 +15,8 @@ It can scale the size of text in Spannable Object.
     when proportion is set to 1, then the size after scaling is same as before.
     
     when proportion is set to less than 1, then the text will be scaled down.
-
+### return value
+    RelativeSizeSpan Object
 ## Example
 See the post.
 
