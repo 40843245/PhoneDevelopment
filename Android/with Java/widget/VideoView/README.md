@@ -9,3 +9,6 @@ It can
       3. set the speed.
       4. set the volume, mute, and unmute.
       
+## Project
+### Project 1
+The zip file demonstrates how to play the video.
