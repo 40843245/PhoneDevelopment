@@ -12,3 +12,8 @@ It can
 ## Project
 ### Project 1
 The zip file demonstrates how to play the video.
+### Project 2
+The zip file demonstrates how the it behaves when file NOT selected.
+### Project 3
+The zip file also demonstrates how the it behaves when file NOT selected.
+
