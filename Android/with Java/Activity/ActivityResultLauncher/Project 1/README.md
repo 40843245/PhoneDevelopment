@@ -76,4 +76,10 @@ The method call result.getResultCode() will get the status of result (it should 
 
 For more details, see my other note in Github.
 
+https://github.com/40843245/PhoneDevelopment/tree/main/Android/Android%20Studio/Class/Activity/ActivityResultCallback
 
+### Project
+
+In the zip file.
+
+https://github.com/40843245/PhoneDevelopment/blob/main/Android/with%20Java/Activity/ActivityResultLauncher/Project%201/FileUploader_Image_3.zip
