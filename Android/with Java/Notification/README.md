@@ -62,6 +62,7 @@ You can grant lots of permissions through only 1 statement.
             );
 
 ## NOTICE
+
 Notice that
 
 In Android Studio, it is neccessary to call method notify in Exception handling block.
@@ -81,6 +82,9 @@ That is, it is neccessary
       }
 
 For more details, see zip file in Project section.
+
+![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/5870b122-9d25-42ca-a256-5327d774666e)
+
 ## Project 
 See my zip Notitification_1.zip in Github.
 
