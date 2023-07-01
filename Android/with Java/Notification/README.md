@@ -82,7 +82,7 @@ That is, it is neccessary
 
 For more details, see zip file in Project section.
 ## Project 
-See my zip file in Github.
+See my zip Notitification_1.zip in Github.
 
 ### Part of code
 
@@ -248,4 +248,9 @@ We send the notify as notification with notificationManager.
 
 If there is an Exception thrown, then these statement are executed. Thus, set the textView_1 as exception.
 
+## Link to Project
+
+https://github.com/40843245/PhoneDevelopment/tree/main/Android/with%20Java/Notification/project/zip
+
 ## Ref
+
