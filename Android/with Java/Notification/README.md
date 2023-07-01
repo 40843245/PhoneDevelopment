@@ -50,7 +50,7 @@ You can grant lots of permissions through only 1 statement.
 
   For more details, see my other note in Github or official Docs.
 
-  Step 5: 
+Step 5: 
 
   Notify
 
@@ -60,6 +60,13 @@ You can grant lots of permissions through only 1 statement.
                     "123",NotificationManagerCompat.IMPORTANCE_HIGH,
                     notification
             );
+
+### Importance Level
+![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/0a14dca2-6b84-4342-b3b1-2b0fc8b6d9c5)
+
+## Set the Content of Notification
+
+![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/72056284-5f1a-45c9-9fc8-38693f41bcc5)
 
 ## NOTICE
 
