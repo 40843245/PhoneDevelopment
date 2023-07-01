@@ -254,3 +254,6 @@ https://github.com/40843245/PhoneDevelopment/tree/main/Android/with%20Java/Notif
 
 ## Ref
 
+From the official video in the official Docs.
+
+https://developer.android.com/develop/ui/views/notifications/channels
