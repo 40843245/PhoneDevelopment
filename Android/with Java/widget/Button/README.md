@@ -18,7 +18,11 @@ Notice that
 
 ![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/1cc2da4c-1e3d-4fe7-a99b-6ef5e6ff56e8)
 
-## method
+## Hierarchy of class 
+![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/d5af7d14-2f62-4b42-956b-9fff5909d53a)
+
+
+## method (in Button class)
 Here, I discuss the commonly used method of Button.
 ### setOnClickListener
 #### syntax
@@ -31,6 +35,23 @@ Set the callback function of onclick event. When the button is pressed, then l c
 #### parameter
 
       l: onclick event callback function.
+
+#### return value
+      None
+
+## method (in View class)
+Here, I discuss the commonly used method of Button.
+### setEnabled
+#### syntax
+
+    public void setEnabled(boolean enabled)
+    
+#### intro
+Set it enabled state with parameter enabled
+
+#### parameter
+
+      enabled : true to enable. false to disable.
 
 #### return value
       None
