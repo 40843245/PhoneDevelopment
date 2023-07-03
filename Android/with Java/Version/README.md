@@ -15,7 +15,9 @@ Build.VERSION.SDK
         It is a string type of Build.VERSION.SDK_INT.
 
 ## Example
-In the zip file,
+In the zip file Version_v1.zip at
+
+https://github.com/40843245/PhoneDevelopment/tree/main/Android/with%20Java/Version/Project/zip
 
 ### Code
         // Check if we're running on Android 5.0 or higher
