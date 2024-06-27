@@ -97,6 +97,8 @@ The source that interact with the content.
 The callback that is invoked once the check state is changed.
 
 ## Declaration
+The declaration is as follows (if it is NOT edited or changed):
+
       /**
        * Material surface is the central metaphor in material design. Each surface exists at a given
        * elevation, which influences how that piece of surface visually relates to other surfaces and how
