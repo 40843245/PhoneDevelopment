@@ -8,3 +8,7 @@
 From Stackoverflow,
 
 https://www.bing.com/search?pglt=41&q=How+to+look+at+docs+of+keyword+in+Android+studio&cvid=dc0c72c98cf941e8b679b989f3fee3a5&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTIyMDQxajBqMagCALACAA&FORM=ANNTA1&PC=CNNDDB
+
+From Android Studio Docs,
+
+https://developer.android.com/studio/intro
