@@ -27,3 +27,27 @@ If it is NOT specified, the returned value of ` Build.VERSION.SDK_INT >= Build.V
 ### content
 The content itself.
 
+## Declaration
+The declaration is as follows (if it is NOT edited or changed):
+
+    @Composable
+    fun LineSdkAndroidTheme(
+        useDarkTheme: Boolean = isSystemInDarkTheme(),
+        dynamicColor: Boolean = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S,
+        content: @Composable () -> Unit
+    ) {
+        val colorScheme = when {
+            dynamicColor -> {
+                val context = LocalContext.current
+                if (useDarkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
+            }
+            useDarkTheme -> DarkColors
+            else -> LightColors
+        }
+    
+        MaterialTheme(
+            colorScheme = colorScheme,
+            typography = Typography,
+            content = content
+        )
+    }
