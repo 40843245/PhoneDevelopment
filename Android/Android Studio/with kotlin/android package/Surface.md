@@ -52,6 +52,50 @@ There are three different declaration, achieved by function overloading.
         content: @Composable () -> Unit
     ) 
 
+## Parameter
+### modifier
+The modifier that modifies the surface.
+
+### shape
+The rectangle shape of the surface.
+
+### color
+The color of surface.
+
+### contentColor
+The color of content.
+
+### tonalElevation
+Tonal elevation of the content.
+
+For more fully understand about "Tonal elevation", visit
+
+https://stackoverflow.com/questions/71772059/adjust-tonal-elevation-for-material-design-3-components-in-jetpack-compose
+
+### shadowElevation
+Shadow elevation of the content.
+
+### border
+Style of border of content.
+
+### content
+The content itself.
+
+### checked
+A boolean value that indicates it is checked.
+
+### onClick
+The callback that is invoked once it is clicked.
+
+### enabled
+A boolean value that determines it will enable.
+
+### interactionSource
+The source that interact with the content.
+
+### onCheckedChange
+The callback that is invoked once the check state is changed.
+
 ## Declaration
       /**
        * Material surface is the central metaphor in material design. Each surface exists at a given
