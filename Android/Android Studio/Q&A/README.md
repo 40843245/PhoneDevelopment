@@ -27,4 +27,11 @@ From Stackoverflow,
 
 https://stackoverflow.com/questions/24777497/android-studio-to-show-xml-code-instead-of-design
 
+## Q3: How to debug your code in Android Studio
+## A3:
+Visit the official Docs.
 
+## Ref
+From official Docs,
+
+https://developer.android.com/studio/debug#kts
