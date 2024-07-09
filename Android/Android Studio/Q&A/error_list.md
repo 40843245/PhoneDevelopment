@@ -9,7 +9,7 @@ From stackoverflow,
 
 https://stackoverflow.com/questions/75660848/could-not-set-unknown-property-classifier-for-task-idl-parsersourcejar-of
 
-## Q2: How to solve internal error about Android studio?
+## Q2: How to solve internal error when opening Android studio?
 Such as 
 
 Internal error. Please refer to https://issuetracker.google.com/issues/new?component=192708  
