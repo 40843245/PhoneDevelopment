@@ -22,12 +22,12 @@ https://stackoverflow.com/questions/26254526/manually-install-gradle-and-use-it-
 ##### newer version
 For newer version.
 
-1. In Android Studio, navigate to "setting" icon then click it. Next, select "SDK manager". (i.e. navigate setting icon -> SDK manager).
+1. In Android Studio, navigate to "setting" icon (on the top right of window, icon as follows),then click it. Next, select "SDK manager". (i.e. navigate setting icon -> SDK manager).
+
+![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/664db44c-f0d7-47e0-a71e-e5d60129e7e9)
+
 2. In popup window with "Settings" title, select Language & Frameworks -> Android SDK.
 3. According to file you want to download or update, navigate the menu bar in the popup window.
 4. Tick the file you want, then click "Apply" button.
 5. Wait for download or update.
 6. After finish downloading or updating, click "OK" button.
-
-
-
