@@ -36,4 +36,13 @@ From official Docs,
 
 https://developer.android.com/studio/debug#kts
 
+## Q4: Wipe data of emulator device in Android Studio.
+## A4:
+1. In Android Studio, go to device manager.
+2. Select the device.
+3. Click the following icon (on the right of panel).
+
+![image](https://github.com/40843245/PhoneDevelopment/assets/75050655/aa1e630b-ae75-4e38-963e-3d52d6c26060)
+4. Select "Wipe Data".
+
 
