@@ -38,3 +38,18 @@ The most reason is that invalid data in cache. To solve it, please clear the dat
    
 ## Ref
 https://stackoverflow.com/questions/58829786/android-studio-the-application-could-not-be-installed-shell-unresponsive#:~:text=The%20solution%20is%20to%20download%20the%20appropriate%20pack,the%20version%20for%20Android%20and%20choose%20all%20packages.
+
+## Q3: Solve the error message when try to run with emulator device in Android Studio.
+Such as
+
+      Error running 'app' The emulator process for AVD Pixel_8_Pro_API_35 has terminated.
+
+## A3:
+There are many reasons to cause this error.
+
+The main reason is that there is NOT enough free disk space.
+
+## Ref
+From Anatolii Shuba's answer in stackoverflow,
+
+https://stackoverflow.com/questions/67346232/android-emulator-issues-in-new-versions-the-emulator-process-has-terminated
