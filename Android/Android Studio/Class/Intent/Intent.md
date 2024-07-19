@@ -38,7 +38,7 @@ When creating an intent, it's often important to specify the type of data (its M
 #### Example
 For example, an activity that's able to display images probably won't be able to play an audio file, even though the URI formats could be similar. Specifying the MIME type of your data helps the Android system find the best component to receive your intent. However, the MIME type can sometimes be inferred from the URI—particularly when the data is a content: URI. A content: URI indicates the data is located on the device and controlled by a ContentProvider, which makes the data MIME type visible to the system.
 
-### Related method
+#### Related method
 To set only the data URI, call `setData()` in `Intent` class. 
 
 To set only the MIME type, call `setType()` in `Intent` class. 
@@ -48,3 +48,24 @@ To set both, call `setDataAndType()` in `Intent` class.
 **NOTICE**
 
 To set both, NEVER either call `setData()` then `setType()` or `setType()` then `setData()` since they each nullify the value of the other. **Always** use `setDataAndType()` instead.
+
+### Category
+A string containing additional information about the kind of component that should handle the intent. Any number of category descriptions can be placed in an intent, but most intents do not require a category.
+
+#### Related method
++ To add a category, use `addCategory()` in `Intent` class.
++ To remove a category, use `removeCategory()` in `Intent` class.
++ To check the category exists in the `Intent` object, use `hasCategory()` in `Intent` class.
+
+For all available category, see [Constant in Intent class (official Docs)](https://developer.android.com/reference/android/content/Intent)
+
+### Extras
+Key-value pairs that carry additional information required to accomplish the requested action. Just as some actions use particular kinds of data URIs, some actions also use particular extras.
+
+#### Related method
+
++ To add extra data, use `putExtra()` in `Intent` class.
++ To remove extra data, use `removeExtra()` in `Intent` class.
++ To get extra data, use `getShortExtra()` in `Intent` class.
++ To copy extra data from other `Intent` object or `Bundle` object, use `putExtras()` in `Intent` class. See [`putExtras`](https://developer.android.com/reference/android/content/Intent#putExtras(android.content.Intent))
+
