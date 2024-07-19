@@ -28,5 +28,19 @@ You can specify your own actions for use by intents within your app (or for use 
 
 For all available actions for an activity, see [Constant in Intent class (official Docs)](https://developer.android.com/reference/android/content/Intent)
 
+### Data
+The URI (a Uri object) that references the data to be acted on and/or the MIME type of that data. 
 
+The type of data supplied is generally dictated by the intent's action. For example, if the action is ACTION_EDIT, the data should contain the URI of the document to edit.
+
+When creating an intent, it's often important to specify the type of data (its MIME type) in addition to its URI. 
+
+#### Example
+For example, an activity that's able to display images probably won't be able to play an audio file, even though the URI formats could be similar. Specifying the MIME type of your data helps the Android system find the best component to receive your intent. However, the MIME type can sometimes be inferred from the URI—particularly when the data is a content: URI. A content: URI indicates the data is located on the device and controlled by a ContentProvider, which makes the data MIME type visible to the system.
+
+To set only the data URI, call `setData()` in `Intent` class. 
+
+To set only the MIME type, call `setType()` in `Intent` class. 
+
+To set both, call `setDataAndType()` in `Intent` class. 
 
