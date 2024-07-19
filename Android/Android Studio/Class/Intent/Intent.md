@@ -69,3 +69,14 @@ Key-value pairs that carry additional information required to accomplish the req
 + To get extra data, use `getShortExtra()` in `Intent` class.
 + To copy extra data from other `Intent` object or `Bundle` object, use `putExtras()` in `Intent` class. See [`putExtras`](https://developer.android.com/reference/android/content/Intent#putExtras(android.content.Intent))
 
+**Caution**
+Do not use `Parcelable` or `Serializable` data when sending an intent that you expect another app to receive. 
+
+If an app attempts to access data in a `Bundle` object but does not have access to the parceled or serialized class, the system raises a `RuntimeException`.
+
+### Flags
+metadata for the intent.
+
+flags may instruct the Android system how to launch an activity (for example, which task the activity should belong to) and how to treat it after it's launched (for example, whether it belongs in the list of recent activities).
+
+For more information, see the `setFlags()` method.
