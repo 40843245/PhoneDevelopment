@@ -38,9 +38,13 @@ When creating an intent, it's often important to specify the type of data (its M
 #### Example
 For example, an activity that's able to display images probably won't be able to play an audio file, even though the URI formats could be similar. Specifying the MIME type of your data helps the Android system find the best component to receive your intent. However, the MIME type can sometimes be inferred from the URI—particularly when the data is a content: URI. A content: URI indicates the data is located on the device and controlled by a ContentProvider, which makes the data MIME type visible to the system.
 
+### Related method
 To set only the data URI, call `setData()` in `Intent` class. 
 
 To set only the MIME type, call `setType()` in `Intent` class. 
 
 To set both, call `setDataAndType()` in `Intent` class. 
 
+**NOTICE**
+
+To set both, NEVER either call `setData()` then `setType()` or `setType()` then `setData()` since they each nullify the value of the other. **Always** use `setDataAndType()` instead.
