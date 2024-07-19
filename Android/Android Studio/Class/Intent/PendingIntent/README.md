@@ -12,6 +12,14 @@ Major use cases for a `PendingIntent` include the following:
 + Declaring an intent to be executed when the user performs an action with your App Widget (the Home screen app executes the `Intent`).
 + Declaring an intent to be executed at a specified future time (the Android system's `AlarmManager` executes the `Intent`).
 
+## Declaration by PendingIntent method
+
+One must declare the intended component type when you create the `PendingIntent` by calling the respective creator method:
+
++ `PendingIntent.getActivity()` for an `Intent` that starts an `Activity`.
++ `PendingIntent.getService()` for an `Intent` that starts a `Service`.
++ `PendingIntent.getBroadcast()` for an `Intent` that starts a `BroadcastReceiver`.
+  
 ## Ref
 https://developer.android.com/reference/android/app/PendingIntent
 
