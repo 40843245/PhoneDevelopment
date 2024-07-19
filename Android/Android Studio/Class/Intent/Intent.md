@@ -20,10 +20,30 @@ val downloadIntent = Intent(this, DownloadService::class.java).apply {
 startService(downloadIntent)
 ```
 
+For more details, see [intent and intent filter(official Docs)](https://developer.android.com/guide/components/intents-filters?hl=en#kotlin)
+
 ### Implicit intents
 ![image](https://github.com/user-attachments/assets/fbd6f9b1-21ee-413d-8a80-2139d7c1a558)
 
+#### Example
 
+```
+// Create the text message with a string.
+val sendIntent = Intent().apply {
+    action = Intent.ACTION_SEND
+    putExtra(Intent.EXTRA_TEXT, textMessage)
+    type = "text/plain"
+}
+
+// Try to invoke the intent.
+try {
+    startActivity(sendIntent)
+} catch (e: ActivityNotFoundException) {
+    // Define what your app should do if no activity can handle the intent.
+}
+```
+
+For more details, see [intent and intent filter(official Docs)](https://developer.android.com/guide/components/intents-filters?hl=en#kotlin)
 ## Information
 It contains these informations:
 
