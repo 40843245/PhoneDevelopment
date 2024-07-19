@@ -7,7 +7,9 @@ In code, use `checkSelfPermission` method.
 ```
 checkSelfPermission(permission:String)
 ```
+
 For more detail about syntax, see [checkSelfPermission (official Docs)](https://developer.android.com/reference/androidx/core/content/ContextCompat#checkSelfPermission(android.content.Context,%20java.lang.String))
+
 ### Example
 
 ```
@@ -20,3 +22,8 @@ if(checkSelfPermission(permission) == PackageManager.PERMISSION_GRANTED){
 ```
 
 ## Way 2: Programmatically (`checkPermission` method)
+In code, use `checkPermission` method.
+
+For use case and example, see [checkPermission (stackoverflow)](https://stackoverflow.com/questions/33540755/android-check-permission)
+
+For syntax, see [checkPermission (official Docs)](https://developer.android.com/reference/android/content/Context#checkPermission(java.lang.String,%20int,%20int))
