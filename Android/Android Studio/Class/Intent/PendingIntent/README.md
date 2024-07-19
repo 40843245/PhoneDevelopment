@@ -19,9 +19,21 @@ One must declare the intended component type when you create the `PendingIntent`
 + `PendingIntent.getActivity()` for an `Intent` that starts an `Activity`.
 + `PendingIntent.getService()` for an `Intent` that starts a `Service`.
 + `PendingIntent.getBroadcast()` for an `Intent` that starts a `BroadcastReceiver`.
-  
-## Ref
-https://developer.android.com/reference/android/app/PendingIntent
+
+## Specify mutability 
+
+If your app targets Android 12 or higher, you must specify the mutability of each `PendingIntent` object that your app creates. 
+
+To declare that a given `PendingIntent` object is mutable or NOT, use the `PendingIntent.FLAG_MUTABLE` or `PendingIntent.FLAG_IMMUTABLE` flag, respectively.
+
+### See Aslo
+For more information about how to specify mutability in PendingIntent in Android Studio, visit [specify mutability in PendingIntent](https://developer.android.com/guide/components/intents-filters?hl=en#DeclareMutabilityPendingIntent)
+
 
 ## See Also
 https://developer.android.com/guide/components/intents-filters?hl=en#PendingIntent
+
+## API Ref
+https://developer.android.com/reference/android/app/PendingIntent
+
+
