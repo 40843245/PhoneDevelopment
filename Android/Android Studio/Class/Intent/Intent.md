@@ -4,6 +4,26 @@ An `Intent` object carries information that the Android system uses to determine
 
 (such as the exact component name or component category that should receive the intent).
 
+## Type of Intent
++ Explicit intents
++ Implicit intents
+
+### Explicit intents
+#### Example
+
+```
+// Executed in an Activity, so 'this' is the Context
+// The fileUrl is a string URL, such as "http://www.example.com/image.png"
+val downloadIntent = Intent(this, DownloadService::class.java).apply {
+    data = Uri.parse(fileUrl)
+}
+startService(downloadIntent)
+```
+
+### Implicit intents
+![image](https://github.com/user-attachments/assets/fbd6f9b1-21ee-413d-8a80-2139d7c1a558)
+
+
 ## Information
 It contains these informations:
 
