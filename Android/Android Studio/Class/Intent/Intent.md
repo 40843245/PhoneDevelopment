@@ -29,6 +29,11 @@ For more details, see [intent and intent filter(official Docs)](https://develope
 #### Receiving an implicit intent
 To publish which implicit intents your app can receive, declare one or more intent filters for each of your app components with an <intent-filter> element in your manifest file (By default, `AndroidManifest.xml`). Each intent filter specifies the type of intents it accepts based on the intent's action, data, and category. The system delivers an implicit intent to your app component only if the intent can pass through one of your intent filters.
 
+**Warning** 
+
+If an activity, service, or broadcast receiver in your app uses intent filters and doesn't explicitly set the value for android:exported, your app can't be installed on a device that runs Android 12 or higher.
+
+###
 For more details, see [Receiving an implicit intent(official Docs)](https://developer.android.com/guide/components/intents-filters?hl=en#Receiving)
 
 #### Example
