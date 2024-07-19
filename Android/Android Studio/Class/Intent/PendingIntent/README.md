@@ -50,9 +50,9 @@ For more information about how to specify mutability in PendingIntent in Android
 
 
 ## See Also
-https://developer.android.com/guide/components/intents-filters?hl=en#PendingIntent
+[Intent filter with PendingIntent](https://developer.android.com/guide/components/intents-filters?hl=en#PendingIntent)
 
 ## API Ref
-https://developer.android.com/reference/android/app/PendingIntent
+[API Ref - PendingIntent](https://developer.android.com/reference/android/app/PendingIntent)
 
 
