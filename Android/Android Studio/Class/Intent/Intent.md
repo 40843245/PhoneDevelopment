@@ -23,7 +23,13 @@ startService(downloadIntent)
 For more details, see [intent and intent filter(official Docs)](https://developer.android.com/guide/components/intents-filters?hl=en#kotlin)
 
 ### Implicit intents
+#### Diagram
 ![image](https://github.com/user-attachments/assets/fbd6f9b1-21ee-413d-8a80-2139d7c1a558)
+
+#### Receiving an implicit intent
+To publish which implicit intents your app can receive, declare one or more intent filters for each of your app components with an <intent-filter> element in your manifest file (By default, `AndroidManifest.xml`). Each intent filter specifies the type of intents it accepts based on the intent's action, data, and category. The system delivers an implicit intent to your app component only if the intent can pass through one of your intent filters.
+
+For more details, see [Receiving an implicit intent(official Docs)](https://developer.android.com/guide/components/intents-filters?hl=en#Receiving)
 
 #### Example
 
@@ -120,3 +126,7 @@ metadata for the intent.
 flags may instruct the Android system how to launch an activity (for example, which task the activity should belong to) and how to treat it after it's launched (for example, whether it belongs in the list of recent activities).
 
 For more information, see the `setFlags()` method.
+
+## Nested PendingIntent
+### Diagram
+![image](https://github.com/user-attachments/assets/5e29ea91-28f1-4f6d-8c69-bce63a892d3e)
