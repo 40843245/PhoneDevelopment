@@ -21,12 +21,24 @@ One must declare the intended component type when you create the `PendingIntent`
 + `PendingIntent.getBroadcast()` for an `Intent` that starts a `BroadcastReceiver`.
 
 ## Specify mutability 
-
+### Requirements
 If your app targets Android 12 or higher, you must specify the mutability of each `PendingIntent` object that your app creates. 
 
+### Declaration
 To declare that a given `PendingIntent` object is mutable or NOT, use the `PendingIntent.FLAG_MUTABLE` or `PendingIntent.FLAG_IMMUTABLE` flag, respectively.
 
-### See Aslo
+## Exception
+If your app attempts to create a `PendingIntent` object without setting either mutability flag. It will occur that 
+
++ the system throws an `IllegalArgumentException`
++ following message appears in Logcat:
+
+
+```
+PACKAGE_NAME: Targeting S+ (version 31 and above) requires that one of FLAG_IMMUTABLE or FLAG_MUTABLE be specified when creating a PendingIntent. Strongly consider using FLAG_IMMUTABLE, only use FLAG_MUTABLE if some functionality depends on the PendingIntent being mutable, e.g. if it needs to be used with inline replies or bubbles.
+```
+
+## See Aslo
 For more information about how to specify mutability in PendingIntent in Android Studio, visit [specify mutability in PendingIntent](https://developer.android.com/guide/components/intents-filters?hl=en#DeclareMutabilityPendingIntent)
 
 
