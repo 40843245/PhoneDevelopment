@@ -48,7 +48,6 @@ PACKAGE_NAME: Targeting S+ (version 31 and above) requires that one of FLAG_IMMU
 ### See Aslo
 For more information about how to specify mutability in PendingIntent in Android Studio, visit [specify mutability in PendingIntent](https://developer.android.com/guide/components/intents-filters?hl=en#DeclareMutabilityPendingIntent)
 
-
 ## See Also
 [Intent filter with PendingIntent](https://developer.android.com/guide/components/intents-filters?hl=en#PendingIntent)
 
