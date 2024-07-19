@@ -26,15 +26,6 @@ For more details, see [intent and intent filter(official Docs)](https://develope
 #### Diagram
 ![image](https://github.com/user-attachments/assets/fbd6f9b1-21ee-413d-8a80-2139d7c1a558)
 
-#### Receiving an implicit intent
-To publish which implicit intents your app can receive, declare one or more intent filters for each of your app components with an <intent-filter> element in your manifest file (By default, `AndroidManifest.xml`). Each intent filter specifies the type of intents it accepts based on the intent's action, data, and category. The system delivers an implicit intent to your app component only if the intent can pass through one of your intent filters.
-
-**Warning** 
-
-If an activity, service, or broadcast receiver in your app uses intent filters and doesn't explicitly set the value for android:exported, your app can't be installed on a device that runs Android 12 or higher.
-
-###
-For more details, see [Receiving an implicit intent(official Docs)](https://developer.android.com/guide/components/intents-filters?hl=en#Receiving)
 
 #### Example
 
@@ -54,7 +45,36 @@ try {
 }
 ```
 
-For more details, see [intent and intent filter(official Docs)](https://developer.android.com/guide/components/intents-filters?hl=en#kotlin)
+#### Receiving an implicit intent
+To publish which implicit intents your app can receive, declare one or more intent filters for each of your app components with an `<intent-filter>` element in your manifest file (By default, `AndroidManifest.xml`). Each intent filter specifies the type of intents it accepts based on the intent's action, data, and category. The system delivers an implicit intent to your app component only if the intent can pass through one of your intent filters.
+
+**Warning** 
+
+If an activity, service, or broadcast receiver in your app uses intent filters and doesn't explicitly set the value for android:exported, your app can't be installed on a device that runs Android 12 or higher.
+
+##### tag
+Use `<intent-filter>` to declare one or more intent filters.
+
+Inside `<intent-filter>`, it can be categorized into:
+
++ <action>
++ <data>
++ <category>
+
+<action>:
+
+Declares the intent action accepted, in the name attribute. The value must be the literal string value of an action, not the class constant.
+
+<data>:
+
+Declares the type of data accepted, using one or more attributes that specify various aspects of the data URI (scheme, host, port, path) and MIME type.
+
+<category>:
+
+Declares the intent category accepted, in the name attribute. The value must be the literal string value of an action, not the class constant.
+
+For more details, see [Receiving an implicit intent(official Docs)](https://developer.android.com/guide/components/intents-filters?hl=en#Receiving)
+
 ## Information
 It contains these informations:
 
