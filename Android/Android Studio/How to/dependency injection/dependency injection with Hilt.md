@@ -1,5 +1,6 @@
 # dependency injection with Hilt in Android Studio
 1. [Adding dependencies](https://developer.android.com/training/dependency-injection/hilt-android#setup)
+   
 First, add the `hilt-android-gradle-plugin` plugin to your project's root `build.gradle` file.
 
 `build.gradle (Module)`
