@@ -1,3 +1,5 @@
+[TOC]
+
 # [dependency injection in classes not supported by Hilt](https://developer.android.com/training/dependency-injection/hilt-android#not-supported)
 ## Way 1: Create an entry point
 1. Create an entry point using the `@EntryPoint` annotation.
